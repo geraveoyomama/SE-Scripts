@@ -9,3 +9,13 @@ This improves mod compatibility, script compiling, multiplayer and performance (
 
 ## Plugin Loader
 plugin-installer.sh is the script that autodetects your SE's Bin64 folder and automatically installs SpaceEngineersLauncher for plugins and the Linux specific script.
+
+
+
+# Usage
+
+For dotnet48 clone the repo and run prefixxer.sh
+
+For pluginloader to work dotnet48 needs to be installed first.
+
+To install pluginloader clone the repo (if not already done) and run plugin-installer.sh
