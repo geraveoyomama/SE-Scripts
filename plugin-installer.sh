@@ -7,7 +7,7 @@ gamepath=${autopath%%/Bin64*}/Bin64
 if [[ $1 ]]; then
   gamepath=$1
 else
-  read -p "Is $gamepath your Space Engineers Bin64 folder?"
+  read -p "Is $gamepath your Space Engineers Bin64 folder? (ctrl+c if no)"
 fi
 
 cd $gamepath
