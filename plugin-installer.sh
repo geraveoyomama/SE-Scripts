@@ -17,7 +17,7 @@ echo "Using, $PWD"
 wget https://github.com/sepluginloader/SpaceEngineersLauncher/releases/latest/download/SpaceEngineersLauncher.exe -qO SpaceEngineersLauncher.exe
 echo "Avaness' SpaceEngineersLauncher downloaded!"
 echo "Setting execute permissions for downloaded files..."
-chmod ug+rx SpaceEngineersLauncher.exe SpaceEngineersLauncher.py
+chmod ug+rx SpaceEngineersLauncher.exe #SpaceEngineersLauncher.py
 echo "Permissions set!"
 echo ""
 echo "DONT FORGET!! Add 'bash -c 'exec "${@/%SpaceEngineers.exe/SpaceEngineersLauncher.exe}"' -- %command%' to your game's launch options."
