@@ -8,6 +8,8 @@ This improves mod compatibility, script compiling, multiplayer and performance (
 
 
 ## Plugin Loader
+to install no fuss:
+`curl https://raw.githubusercontent.com/geraveoyomama/SE-Scripts/refs/heads/main/plugin-installer.sh | bash`
 plugin-installer.sh is the script that autodetects your SE's Bin64 folder and automatically installs SpaceEngineersLauncher for plugins and the Linux specific script.
 
 
