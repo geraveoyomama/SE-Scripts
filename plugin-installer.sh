@@ -14,8 +14,8 @@ cd $gamepath
 echo "Using, $PWD"
 #wget https://gist.githubusercontent.com/opekope2/e02db7e526dadff0813a6ea2aebf820b/raw/SpaceEngineersLauncher.py -O SpaceEngineersLauncher.py
 #echo "Opekope's script downloaded!"
-wget https://github.com/sepluginloader/SpaceEngineersLauncher/releases/latest/download/SpaceEngineersLauncher.exe -qO SpaceEngineersLauncher.exe
-echo "Avaness' SpaceEngineersLauncher downloaded!"
+wget https://github.com/StarCpt/SpaceEngineersLauncher/releases/latest/download/SpaceEngineersLauncher.exe -qO SpaceEngineersLauncher.exe
+echo "StarCpt's SpaceEngineersLauncher downloaded!"
 echo "Setting execute permissions for downloaded files..."
 chmod ug+rx SpaceEngineersLauncher.exe #SpaceEngineersLauncher.py
 echo "Permissions set!"
